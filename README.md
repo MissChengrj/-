@@ -44,7 +44,9 @@ python test_1_1.py
 
 ###试题 1.2
 
+```
 python test_1_2.py
+```
 
 # -第二部分 
 
