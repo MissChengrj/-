@@ -49,12 +49,12 @@ python test_1_2.py
 ```
 git clone https://github.com/MissChengrj/-.git
 ```
-```
-cd test_2
-```
+
 编译
 
 ```
+cd test_2
+
 colcon build
 ```
 
