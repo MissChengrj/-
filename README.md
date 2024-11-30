@@ -32,7 +32,9 @@ part_2_3
 
 在part_1目录下执行
 
+```
 python test_1_1.py
+```
 
 试题 1.2
 
@@ -44,21 +46,29 @@ python test_1_2.py
 
 下载
 
+```
 git clone https://github.com/MissChengrj/-.git
-
+```
+```
 cd test_2
-
+```
 编译
 
+```
 colcon build
+```
 
+```
 source install/setup.bush
+```
 
 启动节点pub, sub
 
+```
 ros2 run test_2 pub
 
 ros2 run test_2 sub
+```
 
 完成
 
@@ -66,9 +76,11 @@ ros2 run test_2 sub
 
 启动节点ser, cli
 
+```
 ros2 run test_2 ser
 
 ros2 run test_2 cli
+```
 
 根据提示输入信息
 
@@ -78,11 +90,15 @@ ros2 run test_2 cli
 
 启动节点ser
 
+```
 ros2 run test_2 ser
+```
 
 加载插件
 
+```
 ros2 run rviz2 rviz2
+```
 
 依次点击Panels->Add New Panels->rviz_plugin_tutorials->MyRvizPanel
 
