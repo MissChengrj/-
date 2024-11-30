@@ -14,10 +14,45 @@ part_2_3
 编译后在rivz2中，创建插件rviz_plugin_tutorials/MyRvizPanel
 
 # -操作步骤
-第一部分 1.1 1.2
+第一部分 
+试题1.1
 在part_1目录下执行
 python test_1_1.py
+
+试题 1.2
 python test_1_2.py
 
-第二部分 2.1
-git 
+第二部分 
+试题2.1
+下载
+git clone https://github.com/MissChengrj/-.git
+cd test_2
+编译
+colcon build
+source install/setup.bush
+启动节点pub, sub
+ros2 run test_2 pub
+ros2 run test_2 sub
+完成
+
+试题2.2
+启动节点ser, cli
+ros2 run test_2 ser
+ros2 run test_2 cli
+根据提示输入信息
+完成
+
+第三部分
+启动节点ser
+ros2 run test_2 ser
+加载插件
+ros2 run rviz2 rviz2
+依次点击Panels->Add New Panels->rviz_plugin_tutorials->MyRvizPanel
+出现插件
+在Qt界面A, B, C中输入数字，Operation可选"sum", "product"
+可在ser节点的terminal中观察到结果
+完成
+
+
+
+
