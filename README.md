@@ -9,7 +9,7 @@ part_2_3
 
 其中包含三个功能包 test_2, test_2_interfaces（存放srv、msg等）, rviz_plugin_tutorials
 
-下面分别介绍三个功能包
+# --下面分别介绍三个功能包
 
 1. test_2
    
